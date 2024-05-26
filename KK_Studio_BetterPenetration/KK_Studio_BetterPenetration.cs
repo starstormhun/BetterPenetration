@@ -333,7 +333,7 @@ namespace KK_Studio_BetterPenetration
 
             updateCount = 0;
 
-            var bpControllers = FindObjectsOfType<BetterPenetrationController>();
+            var bpControllers = BetterPenetrationController.controllers;
             if (bpControllers == null)
                 return;
 
